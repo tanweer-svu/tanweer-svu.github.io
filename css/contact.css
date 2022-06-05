@@ -1,0 +1,39 @@
+:root{
+    --widthBetweenElements : 50px;
+    --mainColor: #152B43;
+    --hoverColor: #D9824EFF;
+    --thirdColor: #c1c0c0;
+    --backgroundColor: #eae9e9;
+}
+
+.contact {
+    margin: 0 0 var(--widthBetweenElements);
+    height: 450px;
+    caret-color: var(--hoverColor);
+    background-color: var(--backgroundColor);
+    padding: 25px;
+}
+
+.contact .contact-form{
+    color: var(--mainColor);
+    text-align: right;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 35px;
+}
+
+.contact .contact-form input,
+.contact .contact-form textarea{
+    border-color: var(--mainColor);
+}
+
+.contact .contact-form .btn{
+    background-color: var(--mainColor);
+    border-radius: 20%;
+}
+
+.contact .contact-form .btn:hover{
+    background-color: var(--hoverColor);
+    color: var(--mainColor);
+    font-weight: bold;
+}

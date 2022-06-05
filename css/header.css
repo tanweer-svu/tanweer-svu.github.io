@@ -1,0 +1,26 @@
+:root{
+    --widthBetweenElements : 50px;
+    --mainColor: #152B43;
+    --hoverColor: #D9824EFF;
+    --thirdColor: #c1c0c0;
+    --backgroundColor: #eae9e9;
+}
+
+.header{
+    height:250px;
+    background-color:var(--hoverColor);
+    margin: 110px 0 var(--widthBetweenElements);
+}
+
+.header .content{
+    text-align: center;
+}
+
+.header .content .title{
+    position: relative;
+    top: 85px;
+    color: var(--mainColor);
+    font-weight: bold;
+    font-size: 3rem;
+    opacity: 90%;
+}

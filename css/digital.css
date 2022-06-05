@@ -1,0 +1,113 @@
+:root{
+    --widthBetweenElements : 50px;
+    --mainColor: #152B43;
+    --hoverColor: #D9824EFF;
+    --thirdColor: #c1c0c0;
+    --backgroundColor: #eae9e9;
+}
+
+.digital{
+    margin-bottom: var(--widthBetweenElements);
+}
+
+.digital .digital-content{
+    color:white;
+    padding:80px;
+    text-align:right;
+    background-color:var(--mainColor);
+    height: 400px;
+}
+
+.digital .digital-content p{
+    font-weight: bolder;
+    line-height: 45px;
+    font-size: 1.5rem;
+}
+
+.digital-content .btn-primary{
+    background-color:var(--mainColor);
+    border-radius: 20%;
+    right: 50px;
+    top:60px;
+    position: relative;
+}
+
+.digital-content .btn-primary:hover{
+    background-color: var(--hoverColor);
+    color: var(--mainColor);
+    font-weight: bold;
+}
+
+/*=================================*/
+
+.lang-content{
+    text-align: center;
+    background-color:var(--backgroundColor);
+    height: 150px;
+    margin-bottom: var(--widthBetweenElements);
+}
+
+.lang-content .title{
+    position: relative;
+    top:50px;
+    color: var(--mainColor);
+    font-weight: bold;
+    font-size: 2rem;
+    opacity: 90%;
+}
+
+.card{
+    padding-top: 0;
+    border-style:none;
+}
+
+.card video{
+    height: 510px;
+    width:100%;
+    margin-bottom: -6px !important;
+    border: var(--mainColor) solid;
+    border-width: 2px 1px 4px 2px;
+}
+
+.card .description{
+    background-color: var(--mainColor);
+}
+
+.card p{
+    font-weight: bolder;
+    line-height: 45px;
+    font-size: 1.25rem;
+    color: white;
+    text-align: right !important;
+}
+
+
+.card p a{
+    color: var(--thirdColor);
+    text-decoration: none;
+}
+
+.card p a:hover{
+    color: var(--hoverColor);
+}
+
+.digital-video{
+    margin-bottom: var(--widthBetweenElements);
+}
+
+.digital-video .description{
+    text-align: center;
+}
+
+.digital-video .description .btn-primary{
+    background-color: var(--mainColor);
+    border-radius: 20%;
+    position: absolute;
+    top: 85%;
+}
+
+.digital-video .description .btn-primary:hover{
+    background-color: var(--hoverColor);
+    color: var(--mainColor);
+    font-weight: bold;
+}

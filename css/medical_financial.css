@@ -1,0 +1,169 @@
+:root{
+    --widthBetweenElements : 50px;
+    --mainColor: #152B43;
+    --hoverColor: #D9824EFF;
+    --thirdColor: #c1c0c0;
+    --backgroundColor: #eae9e9;
+}
+/*start medical-financial*/
+.medical-financial{
+    margin-bottom: var(--widthBetweenElements);
+}
+
+
+.medical-financial .medical-financial-content{
+    color: white;
+    text-align: right;
+    padding: 80px;
+    background-color:var(--mainColor);
+    height:400px;
+}
+
+.medical-financial .medical-financial-content p{
+    font-weight: bolder;
+    line-height: 45px;
+    font-size: 1.5rem;
+}
+
+
+.medical-financial-button .btn-primary{
+    background-color: var(--mainColor);
+    border-radius: 20%;
+    right:35%;
+    top:95px;
+    position: relative;
+}
+.medical-financial-button .btn-primary:hover{
+    background-color: var(--hoverColor);
+    color: var(--mainColor);
+    font-weight: bold;
+}
+
+
+/*end medical-financial*/
+
+/*start medical*/
+.medical{
+}
+
+.lang-content {
+    text-align: center;
+    background-color:var(--backgroundColor);
+    height: 150px;
+    margin-bottom: var(--widthBetweenElements);
+}
+
+.lang-content .title{
+    position: relative;
+    top:50px;
+    color: var(--mainColor);
+    font-weight: bold;
+    font-size: 2rem;
+    opacity: 90%;
+}
+
+.medical .pictures{
+    background-color: var(--backgroundColor) ;
+    margin: 0 auto var(--widthBetweenElements);
+    padding: 30px 0;
+    text-align: center;
+}
+
+.medical .pictures img:hover{
+    box-shadow: 5px 5px 5px 5px var(--mainColor);
+    transition-duration: 1s;
+}
+
+.medical .card{
+    padding-top: 0;
+    border-style: none;
+    margin-bottom: var(--widthBetweenElements) !important;
+}
+
+.medical  .card  video{
+    height: 510px;
+    width:100%;
+    margin-bottom: -5px !important;
+    border: var(--mainColor) solid;
+    border-width: 2px 1px 4px 2px;
+}
+
+.medical .card .description{
+    background-color: var(--mainColor);
+}
+
+.medical  .card p{
+    font-size:1.25rem;
+    line-height: 40px;
+    color:white;
+    text-align:right;
+    font-weight: bold;
+}
+
+.medical .card-body{
+    text-align: center;
+}
+
+.medical .card-body .btn-primary{
+    background-color: var(--mainColor);
+    border-radius: 20%;
+    position: absolute;
+    top: 85%;
+}
+
+.medical .card-body .btn-primary:hover{
+    background-color: var(--hoverColor);
+    color: var(--mainColor);
+    font-weight: bold;
+}
+
+
+/*end medical*/
+
+/*start financial*/
+
+.financial{
+    margin-bottom: var(--widthBetweenElements);
+}
+
+.financial .card{
+    padding-top: 0;
+    border-style: none;
+}
+
+.financial .card  video{
+    height: 510px;
+    width:100%;
+    margin-bottom: -5px !important;
+    border: var(--mainColor) solid;
+    border-width: 2px 1px 4px 2px;
+}
+
+.financial .card .description{
+    background-color: var(--mainColor);
+}
+
+.financial  .card p{
+    font-size:1.25rem;
+    line-height: 40px;
+    color:white;
+    text-align:right;
+    font-weight: bold;
+}
+
+.financial .card-body{
+    text-align: center;
+}
+
+.financial .card-body .btn-primary{
+    background-color: var(--mainColor);
+    border-radius: 20%;
+    position: absolute;
+    top: 85%;
+}
+
+.financial .card-body .btn-primary:hover{
+    background-color: var(--hoverColor);
+    color: var(--mainColor);
+    font-weight: bold;
+}

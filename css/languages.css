@@ -1,0 +1,127 @@
+:root{
+    --widthBetweenElements : 50px;
+    --mainColor: #152B43;
+    --hoverColor: #D9824EFF;
+    --thirdColor: #c1c0c0;
+    --backgroundColor: #eae9e9;
+}
+
+.languages{
+    margin-bottom: var(--widthBetweenElements);
+}
+
+.languages .languages-content{
+    color: white;
+    text-align: right;
+    padding: 80px;
+    background-color:var(--mainColor);
+    height:400px;
+}
+
+.languages .languages-content p{
+    font-weight: bolder;
+    line-height: 45px;
+    font-size: 1.5rem;
+}
+
+
+.languages-button .btn-primary{
+    background-color: var(--mainColor);
+    border-radius: 20%;
+    right:35%;
+    top:65px;
+    position: absolute;
+}
+
+.languages-button .btn-primary:hover{
+    background-color: var(--hoverColor);
+    color: var(--mainColor);
+    font-weight: bold;
+}
+
+/*==================================*/
+
+
+.languages-video{
+    margin-bottom: var(--widthBetweenElements);
+}
+
+.card{
+    padding-top: 0;
+    border-style:none;
+}
+
+.card video{
+    height: 510px;
+    width:100%;
+    margin-bottom: -5px !important;
+    border: var(--mainColor) solid;
+    border-width: 2px 1px 4px 2px;
+}
+
+.languages-video .card .description{
+    background-color: var(--mainColor);
+}
+
+.languages-video .card-body{
+    text-align: center;
+}
+
+.languages-video .card-body .btn-primary{
+    background-color: var(--mainColor);
+    border-radius: 20%;
+    position: absolute;
+    top: 85%;
+}
+
+.languages-video .card-body .btn-primary:hover{
+    background-color: var(--hoverColor);
+    color: var(--mainColor);
+    font-weight: bold;
+}
+
+.languages-video .card p{
+    font-size:1.25rem;
+    line-height: 40px;
+    color:white;
+    text-align:right;
+    font-weight: bold;
+}
+
+/*==========================================================*/
+
+
+.lang-content {
+    text-align: center;
+    background-color:var(--backgroundColor);
+    height: 150px;
+    margin-bottom: var(--widthBetweenElements);
+}
+
+.lang-content .title{
+    position: relative;
+    top:50px;
+    color: var(--mainColor);
+    font-weight: bold;
+    font-size: 2rem;
+    opacity: 90%;
+}
+
+.pictures{
+    height:450px;
+    margin-bottom:var(--widthBetweenElements);
+}
+
+.pictures .col{
+    margin: 0 10px;
+}
+
+.pictures .col .image{
+    width: 650px;
+    height: 470px;
+}
+
+.pictures .col:hover{
+    box-shadow: 5px 5px 5px 5px #6c757d;
+    transition-duration: 1s;
+}
