@@ -93,6 +93,7 @@ body{
 .navbar .icon{
     color: var(--thirdColor);
     padding: 0 10px;
+    transition-duration:500ms;
 }
 
 .navbar .icon:hover{
